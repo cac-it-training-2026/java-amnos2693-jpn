@@ -21,7 +21,7 @@ public class Question05_2 {
 		} else if (numberGroup[3] == 7) {
 			System.out.println(numberGroup[3] + "の要素の値は7です。");
 		} else {
-			System.out.println(numberGroup[3] + "の要素の値は3、5，7以外の値です。");
+			System.out.println("四番目の要素の値は3、5，7以外の値です。");
 		}
 
 		// TODO:ここに実装

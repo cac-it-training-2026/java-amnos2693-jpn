@@ -18,12 +18,11 @@ public class Question07_1 {
 		}
 
 		System.out.println("各商品の単価を順に入力してください。：");
+		String pricestr = reader.readLine();
+		int pricenum = Integer.parseInt(pricestr);
 
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 5; i++) {
 			System.out.println(itemNames[i] + "の単価:>" + price);
-			String pricestr = reader.readLine();
-			int pricenum = Integer.parseInt(pricestr);
-
 		}
 
 		System.out.println("登録商品一覧");
